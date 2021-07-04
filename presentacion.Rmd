@@ -1,0 +1,117 @@
+---
+title: "Introducción al análisis de datos con R"
+subtitle: "Lo que debemos saber de R "
+author: "Dr. Naím Manríquez"
+date: "04/07/2021"
+output: 
+    xaringan::moon_reader:
+      css: ["default", "metropolis-fonts", "metropolis"]
+      nature:
+        highlightStyle: github
+        highlighLine: true
+        countIncrementalSlides: true
+---
+# ¿Qué es R?
+Es un entorno de programación orientado al cálculo,
+estadística, manipulación de datos, y representación gráfica,
+por sus caracteristicas y funciones se trata de un software libre.
+
+R: es gratis, de acceso libre, utilizado para muchos campos de trabajo, economía,
+biología, data science, ingeniería, etc. 
+
+Pueden descargarlo del siguiente enlace:
+- https://cran.r-project.org/
+
+Una de las grandes riquezas de R es la cantidad de
+herramientas (paquetes/librerias) que amplían sus funcionalidades.
+
+La lista completa está en: 
+- http://cran.rediris.es/web/packages/
+
+Al ser un lenguaje de programación, la estructura de lo que hacemos es a través
+de *código*. 
+
+---
+# Trozos de código
+Aquí tenemos un ejemplo de código de R
+
+```{r}
+summary(mtcars)
+```
+
+---
+# Trozos de código
+Aquí tenemos un ejemplo de código de R
+
+```{r}
+summary(mtcars$cyl)
+```
+
+---
+# Trozos de código
+Esta es una gráfica hecha en R
+
+```{r}
+plot(mtcars$cyl)
+```
+---
+# R y RStudio
+RStudio es un IDE (integrated development environment), el cual provee una interface para hacer más amigable programar en R
+
+Pueden descargarlo del siguiente enlace:
+- https://www.rstudio.com/products/rstudio/download/
+
+¿Entonces debo usar R o RStudio?
+
+Podemos hacer una analogía en donde: 
+
+!['RStudio'](analogia.jpg)
+---
+
+# R y RStudio
+Nosotros no interactuamos directamente con el motor cuando queremos utilizar un carro. Nosotros interactuamos y damos órdenes a través de la interface del vehículo, por lo que siempre estaremos utilizando RStudio.
+
+En RStudio vamos a trabajar con algo llamado script que en pocas palabras es el código
+con las instrucciones que le daremos a R para hacer lo que queramos. 
+
+---
+
+# RStudio
+
+!['RStudio'](RStudio-ejemplo-de-paneles.png)
+
+---
+
+# Paqueterias / librerias
+Algunas paqueterias que son muy utilizadas.
+
+- {tidyverse}
+- {dplyr}
+- {ggplot2}
+- {plotly}
+- {readxl}
+- {haven}
+- {foreign}
+- {pacman}
+
+---
+# Recursos útiles
+
+- Ideal para trabajar en la nube: [RStudio Cloud](https://rstudio.cloud/)
+
+- Ciencia de datos con R:
+<a href="https://www.facebook.com/groups/1059429834256215">
+  grupo de facebook
+</a>
+
+- Cursos y ejercicios:
+<a href="https://www.datacamp.com/">
+  Data Camp
+</a>
+
+---
+
+# ¡Vamos a empezar!
+Una vez que sabemos lo básico ... es hora de empezar
+
+<img src="https://media.giphy.com/media/dieGgjBPDS9jy/source.gif">
